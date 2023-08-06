@@ -1,2 +1,2 @@
 # MaxiGames_Official
-The official MaxiGames Repo
+The official MaxiGames Repo.
