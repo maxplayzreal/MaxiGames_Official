@@ -1,7 +1,7 @@
 <html>
-    <title>MaxiGames</title>
+    <title>MaxiGames | Games</title>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="stylegamepage.css">
         <link rel="icon" type="image/x-icon" href="Assets/mg_favicon.png">
 
         <script src="https://kit.fontawesome.com/099ae7de0b.js" crossorigin="anonymous"></script>
@@ -14,38 +14,52 @@
     <body>
         <div class="banner">
             <div class="navbar">
-                <img src="Assets/maxigameslogoglow.png" alt="MaxiGames Logo" draggable="false" id="maxigameslogo">
+                <a href="index.html">
+                    <img src="Assets/maxigameslogoglow.png" alt="MaxiGames Logo" href="index.html" draggable="false" id="maxigameslogo">
+                </a>
                 <ul>
-                    <li><a href="gamespage.html"><i class="fa-solid fa-gamepad fa-2xl"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-gamepad fa-2xl"></i></a></li>
                     <li><a href="index.html"><i class="fa-solid fa-house fa-2xl"></i></a></li>
                 </ul>
             </div>
             <div class="content1">
-                <div class="post1">
-                    <h1>The New Redesigned Look of MaxiGames</h1>
-                <img src="Assets/content_redesign.png" alt="Redesign">
-                <div class="paragraph">
-                    <h2>Published 8/2/2023.</h2>
-                    <p>Introducing the new redesigned version of MaxiGames! The old look blinded your eyes at 3 AM! So we made this new darker look easier on your eyes at night! If you want to switch it to a light theme. Go to the settings on the website and select a theme!</p>
-                </div>
-                </div>
-                <div class="post2">
-                    <h1>What is MaxiGames?</h1>
-                <img src="Assets/content_introcatgame.gif" alt="this cat be gaming" class="contentimg1">
-                <div class="paragraph">
-                    <h2>Published 8/2/2023</h2>
-                    <p>MaxiGames is the place to play many of your favorite online games! This website is constantly being updated so expect more games to be added.</p>
-                </div>
-                </div>
-                <div class="post3">
-                    <h1>tha devs/owners of this website</h1>
-                    <img src="Assets/owners.png" alt="Owners">
-                    <div class="paragraph">
-                        <h2>Published 8/3/2023</h2>
-                        <p>Meet the Developers behind this website. (i mostly do the work - maxplayz (I'M NOT A FURRY) please support us.)</p>
-                    </div>
-                </div>
-            </div>
+                <section class="flexbox1">
+                    <section class="container">
+                        <div class="slider-wrapper">
+                            <h1 class="newGames">✨ New Games ✨</h1>
+                            <div class="slider">
+                                <a href="Games/Papa_Louie/papaswingeria.html"><img id="slide-1" src="Assets/GameCovers/Thumbnails/papas/papaswingeria.webp" alt="Papa's Wingeria"></a>
+                                <a href="Games/Papa_Louie/papasburgeria.html"><img id="slide-2" src="Assets/GameCovers/Thumbnails/papas/papasburgeria.jpg" alt="Papa's Burgeria"></a>
+                                <a href="Games/Papa_Louie/papashotdoggeria.html"><img id="slide-3" src="Assets/GameCovers/Thumbnails/papas/papashotdoggeria.webp" alt="Papa's Hotdoggeria"></a>
+                                <a href="Games/Duck_Life/ducklife1.html"><img id="slide-4" src="Assets/GameCovers/Thumbnails/duck_life/ducklife1.jpg" alt="Duck Life 1"></a>
+                                <a href="Games/RaftWars.html"><img id="slide-5" src="Assets/GameCovers/Thumbnails/raft_wars/raftwars1.jpg" alt="Raft Wars 1"></a>
+                            </div>
+                            <div class="slider-nav">
+                                <a href="#slide-1"></a>
+                                <a href="#slide-2"></a>
+                                <a href="#slide-3"></a>
+                                <a href="#slide-4"></a>
+                                <a href="#slide-5"></a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="container">
+                        <div class="slider-wrapper">
+                            <h1 class="newGames">🌊 Featured Games 🌊</h1>
+                            <div class="slider">
+                                <a href="Games/chesscom.html"><img id="slide-1" src="Assets/GameCovers/Thumbnails/chess.jpg" alt="Chess"></a>
+                                <a href="Games/Henry_Stickmin/henryBTB.html"><img id="slide-2" src="Assets/GameCovers/Thumbnails/henry_stickmin/hn_btb.avif" alt="Henry Stickmin: Breaking the Bank"></a>
+                                <a href="Games/Papa_Louie/papasburgeria.html"><img id="slide-3" src="Assets/GameCovers/Thumbnails/papas/papasburgeria.jpg" alt="Papa's Burgeria"></a>
+                            </div>
+                            <div class="slider-nav">
+                                <a href="#slide-1"></a>
+                                <a href="#slide-2"></a>
+                                <a href="#slide-3"></a>
+                            </div>
+                        </div>
+                    </section>
+                </section>
         </div>
         <div class="footer">
             <img src="Assets/maxigameswhite.png" alt="MaxiGames Logo">
