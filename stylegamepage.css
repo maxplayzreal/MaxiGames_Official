@@ -136,3 +136,11 @@
     flex-direction: row;
     justify-content: space-around;
 }
+.footer i{
+    color: white;
+    margin-top: 2vh;
+}
+.footer i:hover{
+    color: #a500e6;
+    transition: 0.25s;
+}
