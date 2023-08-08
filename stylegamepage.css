@@ -159,7 +159,7 @@
     align-content: flex-start;
     justify-content: center;
     gap: 1vh;
-    padding-bottom: 20vh;
+    padding-bottom: 30vh;
 }
 .series #item{
     background-color: rgba(76, 0, 112, 0.578);
@@ -174,14 +174,27 @@
     height: 175px;
     width: 300px;
     border-radius: 0.5rem;
+
 }
 .footer #tripmine{
     width: 50px;
     height: auto;
     padding-left: 10px;
-}
-.footer button{
+
+    /* ANIMATIONS */
     background-color: black;
     border: 0;
     cursor: pointer;
+    animation-duration: 1.5s;
+    animation-name: opacitypulse;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes opacitypulse{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
