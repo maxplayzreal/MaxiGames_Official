@@ -11,7 +11,7 @@ particlesJS(
             },
             move: {
                 enable: true,
-                speed: 36
+                speed: 58
             },
             shape: {
                 type: "image",
