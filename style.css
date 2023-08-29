@@ -139,3 +139,10 @@
     color: #a500e6;
     transition: 0.25s;
 }
+.post4 {
+    padding-bottom: 10vh;
+}
+.post4 a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
