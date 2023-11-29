@@ -119,7 +119,7 @@
     padding-top: 1vh;
 }
 .footer p{
-    color: rgb(207, 117, 0);
+    color: rgb(131, 0, 207);
     padding-top: 10px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -136,7 +136,7 @@
     margin-top: 2vh;
 }
 .footer i:hover{
-    color: #e69600;
+    color: #9600e6;
     transition: 0.25s;
 }
 .post4 {
