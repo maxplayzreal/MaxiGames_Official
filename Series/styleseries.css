@@ -21,7 +21,7 @@
 .banner{
     width: 100%;
     height: auto;
-    background-image: linear-gradient(90deg, rgba(0,0,0), rgb(33, 21, 1));
+    background-image: linear-gradient(90deg, rgba(0,0,0), rgb(27, 1, 33));
 }
 
 
@@ -80,7 +80,7 @@
     padding-top: 1vh;
 }
 .footer p{
-    color: rgb(207, 121, 0);
+    color: rgb(128, 0, 207);
     padding-top: 10px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -142,7 +142,7 @@
     margin-top: 2vh;
 }
 .footer i:hover{
-    color: #e67700;
+    color: #9d00e6;
     transition: 0.25s;
 }
 .seriesTitle{
